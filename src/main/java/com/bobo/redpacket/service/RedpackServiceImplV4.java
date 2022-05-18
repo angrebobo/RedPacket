@@ -89,7 +89,7 @@ public class RedpackServiceImplV4 implements RedpackService {
         do {
             isFail = false;
             i++;
-            // 开启事物
+            // 开启事务
             DefaultTransactionDefinition def = new DefaultTransactionDefinition();
             def.setPropagationBehavior(TransactionDefinition.PROPAGATION_REQUIRED);
             TransactionStatus txStatus = txManager.getTransaction(def);

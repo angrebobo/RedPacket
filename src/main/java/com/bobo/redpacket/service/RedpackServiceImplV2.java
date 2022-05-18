@@ -71,7 +71,7 @@ public class RedpackServiceImplV2 implements RedpackService {
     @Override
     public boolean fight(FightRedpackDTO dto) throws RedpackException {
 
-        boolean isFail = false;
+        boolean isFail;
         // 记录重试次数
         int i = 0;
 

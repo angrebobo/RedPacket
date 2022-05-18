@@ -11,7 +11,7 @@ import org.springframework.stereotype.Repository;
  * @Data: Created in 13:36 2021/9/20
  */
 
-//继承了MybatisPlus的BaseMapper接口，它就自动帮开发者把简单的crud方法都封装好了
+// 继承了MybatisPlus的BaseMapper接口，它就自动帮开发者把简单的crud方法都封装好了
 @Repository
 public interface RedpackActivityDao extends BaseMapper<RedpackActivityPO> {
 
