@@ -102,8 +102,6 @@ public class RedpackServiceImplV5 implements RedpackService{
             return false;
         }
 
-
-
         // 开启事物
         DefaultTransactionDefinition def = new DefaultTransactionDefinition();
         def.setPropagationBehavior(TransactionDefinition.PROPAGATION_REQUIRED);
